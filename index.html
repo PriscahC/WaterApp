@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chanzo</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="landing.css">
+  </head>
+  <body>
+    <!--Landing Page-->
+    <div class="landing" style="height: 500px; background-image: url(/water.jpg); background-repeat: no-repeat; background-size: cover; ">
+      <nav style="background-color: rgba(5, 5, 9, 0.7); height: 500px; padding-top: 20px; position: relative;">
+        <a href="#" style="margin-right: 50px; margin-left: 60%; text-decoration: none; color: #56B3E4;">Home</a>
+        <h1 style="color: #56B3E4; position: absolute; z-index: 1; color: #56B3E4; font-family: Epilogue sans-serif; font-size: 120px; font-style: normal; font-weight: 800; line-height: 80px; letter-spacing: -2px; margin-top: 20%; margin-left: 30%;">CHANZO</h1>
+        <a href="#" style="margin-right: 50px; text-decoration: none; color: #56B3E4;">Map</a>
+        <a href="#" style="margin-right: 50px; text-decoration: none; color: #56B3E4;">Game</a>
+        <a href="#" style="text-decoration: none; color: #56B3E4;">Projects</a>
+        <h1 style="color: #56B3E4; position: absolute; z-index: 1; font-family: Epilogue sans-serif; font-size: 120px; font-style: normal; font-weight: 800; line-height: 80px; letter-spacing: -2px; margin-top: 20%; margin-left: 30%;">CHANZO</h1>
+      </nav>
+    </div>
+  
+    <!--Map-->
+    <div class="map">
+      <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Water points" src="//africageoportal.maps.arcgis.com/apps/Embed/index.html?webmap=5c798cd8af5741199d5fba64338b7bf7&extent=36.6624,-1.3706,37.084,-1.1362&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
+    </div>
+    <div class="game">
+      <div class="wrapper">
+        <div class="stats-container">
+          <div id="moves-count"></div>
+          <div id="time"></div>
+        </div>
+        <div class="game-container"></div>
+        <button id="stop" class="hide">Stop Game</button>
+        <p style="font-size: 10px;">source: <a href="https://www.waterconservation.gov.hk/en/at-home/water-saving-tips/index.html" target="_blank">https://www.waterconservation.gov.hk/en/at-home/water-saving-tips/index.html</a></p>
+      </div>
+      <div class="controls-container">
+        <p id="result"></p>
+        <h2>How to conserve water</h2>
+        <div style="border: 1px solid black; padding: 15px; background-color: rgba(5, 5, 9, 0.4); border-radius: 4px; margin-bottom: 15px;">
+          <ul style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: medium;  list-style-type: none;">
+            <li>Fix leaking taps</li>
+            <li>Shower for 5 - 10 minutes</li>
+            <li>Use water saving devices</li>
+            <li>Do not play with water</li>
+            <li>Turn off tap while brushing</li>
+            <li>Reuse water to water plants</li>
+            <li>Wash cars with water bucket</li>
+            <li>Don't defrost under running water</li>
+            <li>Install flow controllers in water taps.</li>
+            <li>Check and regulate water consumption</li>
+            <li>Don't wash utensils under running water</li> 
+            <li>press the reduced flush button for liquid waste </li>
+            <br>
+            <p>*****************************************************</p>
+            <p style="color: black;">Now play the memory game. Can you match the pictures?</p>
+
+          </ul>
+        </div>
+        <button id="start">Start Game</button>
+      </div>
+      <div class="tips">
+        
+      </div>
+    </div>
+
+
+    <!--cards section-->
+    <div class="cards">
+
+      <div class="card">
+        <div class="card__image-holder"></div>
+        <div class="card-title">
+          <h2 >
+            <a href="#" style="text-decoration: none;">Nairobi River CleanUp</a>
+
+          </h2>
+          <p>12<sup>th</sup> March, 2023</p>
+        </div>
+        
+      </div>
+    
+      <div class="card">
+        <div class="card__image-holder">
+        </div>
+        <div class="card-title">
+          <h2 >
+            <a href="#" style="text-decoration: none;">Ndakaini Dam Run</a>
+
+          </h2>
+          <p>6<sup>th</sup> October, 2023</p>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card__image-holder">
+        </div>
+        <div class="card-title">
+          <h2 >
+            <a href="#" style="text-decoration: none;">National Rivers Month</a>
+
+          </h2>
+          <p> June, 2023</p>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card__image-holder">
+        </div>
+        <div class="card-title">
+          <h2 >
+            <a href="#" style="text-decoration: none;">Water Challenge</a>
+
+          </h2>
+          <p>12<sup>th</sup> March, 2023</p>
+        </div>
+        
+      </div>
+    
+      <div class="card">
+        <div class="card__image-holder">
+        </div>
+        <div class="card-title">
+          <h2 >
+            <a href="#" style="text-decoration: none;">Mashujaa Project</a>
+          </h2>
+          <p>12<sup>th</sup> March, 2023</p>
+        </div>
+        
+      </div>
+    
+      <div class="card">
+        <div class="card__image-holder">
+        </div>
+        <div class="card-title">
+          <h2 >
+              <a href="#" style="text-decoration: none;">Half Marathon</a>
+          </h2>
+          <p>12<sup>th</sup> March, 2023</p>
+        </div>
+        
+      </div>
+      
+    </div>
+    <footer style="background-color: rgba(5, 5, 9, 0.4); height: 100px; padding-top: 20px;">
+      <a href="#" style="margin-right: 50px; margin-left: 60%; text-decoration: none; color: #56B3E4;">Home</a>
+      <a href="#" style="margin-right: 50px; text-decoration: none; color: #56B3E4;">Map</a>
+      <a href="#" style="margin-right: 50px; text-decoration: none; color: #56B3E4;">Game</a>
+      <a href="#" style="text-decoration: none; color: #56B3E4;">Projects</a>
+    </footer>
+    
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="cards.js"></script>
+  </body>
+</html>
